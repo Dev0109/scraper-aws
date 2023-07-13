@@ -1,0 +1,13 @@
+amazon
+__pycache__
+Amazon database
+environmentVariables
+debug.py
+tempCodeRunnerFile.py
+.vs
+
+database.sql
+fastAPI_functionalities
+fastapiApp.py
+test.py
+backup.py

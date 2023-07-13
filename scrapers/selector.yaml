@@ -1,0 +1,48 @@
+# CSS selectors:
+# searches: span[data-csa-c-type="element"] li.a-spacing-micro.s-navigation-indent-1 span.a-list-item span.a-size-base.a-color-base.a-text-bold
+
+# CSS selectors:
+product_name: "div.a-section.a-spacing-none.a-spacing-top-small.s-title-instructions-style h2 a span"
+searches_I: "div#departments span.a-size-base.a-color-base.a-text-bold"
+searches_II: "span.a-color-state.a-text-bold"
+
+pages: "span.s-pagination-strip span.s-pagination-item.s-pagination-disabled"
+next_button: "a.s-pagination-item.s-pagination-next.s-pagination-button.s-pagination-separator"
+
+main_content: "div[data-component-type='s-search-result']"
+hyperlink: "a.a-link-normal.s-underline-text.s-underline-link-text.s-link-style.a-text-normal"
+price: "span[data-a-color='base'] span.a-offscreen"
+old_price: "span[data-a-color='secondary'] span.a-offscreen"
+review: "span.a-declarative a i span.a-icon-alt"
+review_count: "a.a-link-normal.s-underline-text.s-underline-link-text.s-link-style span.a-size-base.s-underline-text"
+image: "img.s-image"
+
+# Below selectors are for individual datas:
+name: "span#productTitle"
+prod_des: "div#productOverview_feature_div table.a-normal.a-spacing-micro tr"
+description: div.a-section.a-spacing-medium.a-spacing-top-small ul.a-unordered-list.a-vertical.a-spacing-mini li
+price_uk: "span#price"
+price_us: "span.a-offscreen"
+price_in: "span.a-price.aok-align-center.reinventPricePriceToPayMargin.priceToPay span.a-offscreen"
+deal_price: span.a-price.a-text-price.a-size-medium.apexPriceToPay span.a-offscreen
+savings: span.a-price.a-text-price.a-size-base span.a-offscreen
+availability: "div#availability span.a-size-medium.a-color-price"
+rating_count: "span#acrCustomerReviewText"
+image_lists: ul.a-unordered-list.a-nostyle.a-button-list.a-vertical.a-spacing-top-micro.regularAltImageViewLayout img
+image_link_i: "div.imgTagWrapper img"
+image_link_ii: "img.a-dynamic-image.image-stretch-vertical.frontImage"
+store: "a#bylineInfo"
+
+
+# Reviews selectors
+profile_name: span.a-profile-name
+stars: i[data-hook="review-star-rating-view-point"] span.a-icon-alt
+review_title: span[data-hook='review-title']
+full_review: "div.a-row.a-spacing-top-mini span.a-size-base"
+
+
+# Goldbox section selectors:
+gold_pages: li.a-disabled
+next_page: li.a-last a
+# main_contents: div.DealGridItem-module__dealItemDisplayGrid_e7RQVFWSOrwXBX4i24Tqg.DealGridItem-module__withBorders_2jNNLI6U1oDls7Ten3Dttl.DealGridItem-module__withoutActionButton_2OI8DAanWNRCagYDL2iIqN
+gold_links: div.DealGridItem-module__dealItemDisplayGrid_e7RQVFWSOrwXBX4i24Tqg.DealGridItem-module__withBorders_2jNNLI6U1oDls7Ten3Dttl.DealGridItem-module__withoutActionButton_2OI8DAanWNRCagYDL2iIqN div[data-testid="deal-card"] a.a-link-normal.DealCardDynamic-module__linkOutlineOffset_2XU8RDGmNg2HG1E-ESseNq
